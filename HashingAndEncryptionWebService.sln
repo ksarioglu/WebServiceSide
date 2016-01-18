@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashingAndEncryptionWebService", "HashingAndEncryptionWebService\HashingAndEncryptionWebService.csproj", "{B392353B-C7B5-4434-9AE8-3E2E47C2D296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientToDecrypt", "ClientToDecrypt\ClientToDecrypt.csproj", "{5AFF5E44-C876-47FE-8C93-2EE6BA0C277D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B392353B-C7B5-4434-9AE8-3E2E47C2D296} = {B392353B-C7B5-4434-9AE8-3E2E47C2D296}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B392353B-C7B5-4434-9AE8-3E2E47C2D296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B392353B-C7B5-4434-9AE8-3E2E47C2D296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B392353B-C7B5-4434-9AE8-3E2E47C2D296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B392353B-C7B5-4434-9AE8-3E2E47C2D296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFF5E44-C876-47FE-8C93-2EE6BA0C277D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFF5E44-C876-47FE-8C93-2EE6BA0C277D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFF5E44-C876-47FE-8C93-2EE6BA0C277D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFF5E44-C876-47FE-8C93-2EE6BA0C277D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
